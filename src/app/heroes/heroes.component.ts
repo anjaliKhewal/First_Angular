@@ -13,8 +13,8 @@ export class HeroesComponent implements OnInit {
 	//heroes = HEROES;
 	heroes: Hero[];
 	
-	selectedHero: Hero;
-	
+	//selectedHero: Hero;
+		
 	
 	/*hero: Hero ={
 		id: 1,
@@ -27,9 +27,9 @@ export class HeroesComponent implements OnInit {
 	 this.getHeroes();
   }
   
-  onSelect(hero: Hero): void{
-		this.selectedHero = hero;
-	}
+//   onSelect(hero: Hero): void{
+// 		this.selectedHero = hero;
+// 	}
 	
 	getHeroes(): void{
 		//this.heroes = 
